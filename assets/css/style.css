@@ -1,0 +1,40 @@
+form{
+    width: 600px;
+}
+form fieldset{
+    border: lightgray groove 3px;
+   padding: 20px;
+   line-height: 30px;
+}
+form fieldset input:nth-of-type(1),input:nth-of-type(3){
+   margin-left: 150px;
+}
+form fieldset input:nth-of-type(2){
+    margin-left: 130px;
+}
+form fieldset label:nth-of-type(5){
+    margin-left: 140px;
+}
+form fieldset input:nth-of-type(4),input:nth-of-type(5){
+    margin-left: 5px;
+}
+form fieldset label:nth-of-type(6){
+    margin-left: 5px;
+}
+form fieldset input:nth-of-type(6){
+    margin-left: 140px;
+}
+form fieldset select:first-of-type{
+    margin-left: 133px;
+}
+form fieldset select:last-of-type{
+    margin-left: 57px;
+}
+form fieldset input:nth-of-type(7){
+    margin-left: 80px;
+}
+form fieldset input:nth-of-type(10),input:nth-of-type(11){
+    background-color: white;
+    border-radius: 7px;
+    border-color: lightgrey;
+}
